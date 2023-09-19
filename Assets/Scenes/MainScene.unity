@@ -645,16 +645,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ff67c6e8efb8a47b631cd7b8e6d85a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftMouseButton:
+  LeftMouseButton:
     m_Name: Left Mouse Button
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: 0df45162-76a7-46c2-8723-bb30e65867f4
+    m_Id: 86b03522-bc39-469a-b296-295bfa558443
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: ddc026e8-6709-4cf0-980d-e685bcadaf3e
+      m_Id: 724fcb4d-0d49-4c69-a25f-cc268b754b22
       m_Path: <Mouse>/leftButton
       m_Interactions: 
       m_Processors: 
@@ -662,16 +662,16 @@ MonoBehaviour:
       m_Action: Left Mouse Button
       m_Flags: 0
     m_Flags: 0
-  rightMouseButton:
+  RightMouseButton:
     m_Name: Right Mouse Button
     m_Type: 0
     m_ExpectedControlType: 
-    m_Id: d2abc1c1-1aae-46a9-bfc9-d144a064347d
+    m_Id: 5f5387e9-6f48-4661-a078-818d04ae1e8e
     m_Processors: 
     m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: 9e7de36e-2cc2-4c41-8c4e-a18fa273fdcb
+      m_Id: 6dc226f4-cc04-400f-b446-564645c63d16
       m_Path: <Mouse>/rightButton
       m_Interactions: 
       m_Processors: 

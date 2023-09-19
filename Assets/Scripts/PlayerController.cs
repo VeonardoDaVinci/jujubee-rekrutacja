@@ -6,8 +6,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public InputAction leftMouseButton;
-    public InputAction rightMouseButton;
+    public InputAction LeftMouseButton;
+    public InputAction RightMouseButton;
 
     [SerializeField] private List<Weapon> weapons;
     [SerializeField] private TextMeshProUGUI weaponGUI;
@@ -15,21 +15,21 @@ public class PlayerController : MonoBehaviour
     private int currentWeaponIndex;
     private void OnEnable()
     {
-        rightMouseButton.Enable();
-        leftMouseButton.Enable();
+        RightMouseButton.Enable();
+        LeftMouseButton.Enable();
     }
 
     private void OnDisable()
     {
-        rightMouseButton.Disable();
-        leftMouseButton.Disable();
+        RightMouseButton.Disable();
+        LeftMouseButton.Disable();
     }
     private void Start()
     {
         UnequipAllWeapons();
         EquipWeapon(0);
-        leftMouseButton.performed += OnLeftButtonClicked;
-        rightMouseButton.performed += OnRightButtonClicked;
+        LeftMouseButton.performed += OnLeftButtonClicked;
+        RightMouseButton.performed += OnRightButtonClicked;
     }
 
     private void OnRightButtonClicked(InputAction.CallbackContext callbackContext)
