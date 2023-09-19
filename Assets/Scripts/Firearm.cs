@@ -8,7 +8,7 @@ public class Firearm : Weapon
     private int projectilesLeft = 0;
     public override void Attack()
     {
-        if(projectilesLeft== 0)
+        if(projectilesLeft == 0)
         {
             Reload();
             return;
